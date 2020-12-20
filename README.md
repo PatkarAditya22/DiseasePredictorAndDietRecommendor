@@ -1,5 +1,6 @@
 # symptom-to-disease-prediction
-A simple symptom to disease prediction with Machine Learning.
+This is the flask API for prediction of Diseases through Symptoms.
+It is a simple symptom to disease prediction with Machine Learning.
 
 # How to run
 
@@ -18,15 +19,3 @@ For Windows
 set FLASK_APP=app.py
 python -m flask run
 ```
-
-# Example API
-
-Comma separated symptoms.
-
-symptoms - required.
-
-For single symptoms:
-```http://localhost:5000/?symptoms=puffy_face_and_eyes```
-
-For multiple symptoms:
-```http://localhost:5000/?symptoms=puffy_face_and_eyes,pus_filled_pimples```
